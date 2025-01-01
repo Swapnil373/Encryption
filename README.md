@@ -1,8 +1,6 @@
-Read this yap by chatgpt
+Read this yap by chatgpt.
 
 # 🔒 Message Encryption/Decryption Tool
-
-Read this yap by chatgpt.
 
 A lightweight Python utility for securely encoding and decoding messages using a simple XOR encryption mechanism, combined with Base64 encoding for safe transmission.
 
