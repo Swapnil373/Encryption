@@ -1,8 +1,10 @@
-Read this yap by chatgpt.
+READCHATGPT yap 
 
-# 🔒 Message Encryption/Decryption Tool
-
+# 🔒 Message Encryption/Decryption Tool 
+ 
 A lightweight Python utility for securely encoding and decoding messages using a simple XOR encryption mechanism, combined with Base64 encoding for safe transmission.
+
+---
 
 ## 🚀 Features
 - **Encode Messages:** Transform plaintext into a secure encoded format.
@@ -26,14 +28,7 @@ A lightweight Python utility for securely encoding and decoding messages using a
 
 ## 📦 Installation
 
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/message-encryption-tool.git
-cd message-encryption-tool
-
-Ensure Python 3.x is installed on your system.
-
+ • Copy and paste the code in main.py program then run it in terminal using python. Or you may do it the boring way.
 
 ---
 
@@ -41,15 +36,9 @@ Ensure Python 3.x is installed on your system.
 
 Run the script in your terminal:
 
-python3 encryption_tool.py
+python3 main.py
 
-Follow the prompts to encode or decode a message:
-
-Encoding: Input the message and a 6-digit key to receive an encoded output.
-
-Decoding: Input the encoded message and the same 6-digit key to retrieve the original message.
-
-
+Follow the prompts to encode or decode a message.
 
 ---
 
@@ -58,40 +47,31 @@ Decoding: Input the encoded message and the same 6-digit key to retrieve the ori
 Encoding
 
 Message: HelloWorld
+
 Key: 123456
+
 Encoded Message: QFZVF1YPFhg=
+
 
 Decoding
 
 Encoded Message: QFZVF1YPFhg=
+
 Key: 123456
+
 Decoded Message: HelloWorld
+
 
 
 ---
 
 🚨 Important Notes
 
-The key must be a 6-digit number.
+The key must be a number.
 
 Base64 ensures the encoded message is safe for transmission, but decoding requires the correct key.
 
 Handle your keys responsibly!
-
-
-
----
-
-🛡️ License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
----
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
 
 ---
@@ -102,8 +82,4 @@ This tool was built for quick, simple, and secure message encoding/decoding with
 
 
 ---
-
-Happy Encrypting! 🔐
-
-Make sure to replace `your-username` in the installation instructions with your actual GitHub username.
 
